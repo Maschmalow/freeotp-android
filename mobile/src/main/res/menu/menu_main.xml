@@ -22,7 +22,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="org.fedorahosted.freeotp.main.Activity">
+    tools:context="org.fedorahosted.freeotpbackup.main.Activity">
     <item
         android:visible="false"
         android:id="@+id/action_up"
@@ -69,6 +69,13 @@
                 android:title="@string/backup_title"
                 android:visible="true"
                 app:showAsAction="always" />
+            <item
+                android:id="@+id/action_convert"
+                android:orderInCategory="100"
+                android:icon="@drawable/ic_backup"
+                android:title="@string/convert_title"
+                android:visible="true"
+                app:showAsAction="always" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             <item
                 android:id="@+id/action_restore"
                 android:orderInCategory="100"

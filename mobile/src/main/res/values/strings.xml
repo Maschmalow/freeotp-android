@@ -122,5 +122,6 @@
     <string name="keystore_image">keystore image</string>
     <string name="android_keystore_title">Android Keystore</string>
     <string name="menu_title">Menu</string>
+    <string name="convert_title">Convert backup to URI</string>
 
 </resources>

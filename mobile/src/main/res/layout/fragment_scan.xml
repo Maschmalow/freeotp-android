@@ -19,7 +19,7 @@
    - limitations under the License.
    -->
 
-<org.fedorahosted.freeotp.utils.SquareFrameLayout
+<org.fedorahosted.freeotpbackup.utils.SquareFrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -58,4 +58,4 @@
         android:textColor="@android:color/white"
         android:text="@string/error_camera_open"
         />
-</org.fedorahosted.freeotp.utils.SquareFrameLayout>
+</org.fedorahosted.freeotpbackup.utils.SquareFrameLayout>

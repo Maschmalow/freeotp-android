@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.fedorahosted.freeotp">
+    package="org.fedorahosted.freeotpbackup">
 
     <supports-screens
         android:anyDensity="true"
@@ -27,7 +27,7 @@
 
     <application
         android:allowBackup="true"
-        android:backupAgent=".TokenBackupAgent"
+        android:backupAgent="org.fedorahosted.freeotpbackup.TokenBackupAgent"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:fullBackupOnly="true"
@@ -37,15 +37,15 @@
         android:supportsRtl="true"
         android:theme="@style/FreeOTP.Purple.NoActionBar">
         <activity
-            android:name=".OnBoardingActivity"
+            android:name="org.fedorahosted.freeotpbackup.OnBoardingActivity"
             android:exported="false" />
         <activity
-            android:name=".ManualAdd"
+            android:name="org.fedorahosted.freeotpbackup.ManualAdd"
             android:exported="false"
-            android:parentActivityName=".main.Activity"
+            android:parentActivityName="org.fedorahosted.freeotpbackup.main.Activity"
             android:theme="@style/FreeOTP.Purple.NoActionBar" />
         <activity
-            android:name=".main.Activity"
+            android:name="org.fedorahosted.freeotpbackup.main.Activity"
             android:configChanges="orientation|screenSize"
             android:exported="true"
             android:label="@string/app_name"
@@ -66,7 +66,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PasswordActivity"
+            android:name="org.fedorahosted.freeotpbackup.PasswordActivity"
             android:configChanges="orientation|screenSize"
             android:exported="true"
             android:label="@string/app_name"

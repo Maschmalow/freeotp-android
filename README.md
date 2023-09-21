@@ -17,5 +17,3 @@ therefore, the app does not read the secrets from the Keystore when it needs to 
 secret is encrypted with a password-derived key and stored in the app. Then the encrypted secret is simply written to the backup file whenever required.
 Therefore, the simplest way to export secret without dealing with the Keystore is to pick up the secrets whenever they are decrypted from a backup.
 This fork does exactly that: First select the backup file, enter the password as usual, then choose where to save the file with the tokens in URI form.
-
-If you forgot your password (t would be technically possible to read the secrets from the key
